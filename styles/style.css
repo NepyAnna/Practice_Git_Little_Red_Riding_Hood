@@ -1,0 +1,16 @@
+.title {
+    display: flex;
+    justify-content: center;
+    color: rgb(97, 18, 18);
+    
+
+}
+body {
+    width: 100%;
+    background-image: url(../photoes/forest3.jpeg);
+    z-index: -1;
+    padding: 1rem;
+    backdrop-filter: blur(50px); 
+    overflow: hidden;
+    object-fit: cover;
+}
