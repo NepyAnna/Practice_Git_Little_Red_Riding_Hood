@@ -1,41 +1,43 @@
-.title {
-    width: 500px;
-    display: flex;
-    justify-content: center;
-    color: rgb(129, 4, 4);
-}
 body {
-    width: 100%;
+    width: 60%;
     background-image: url(../photoes/photo5.jpeg);
     backdrop-filter: blur(6px) sepia(90%);
-    z-index: -1;
+    /*z-index: -1;*/
     padding: 1rem;
-    /*backdrop-filter: blur(50px);*/
     overflow: hidden;
     object-fit: cover;
 }
 
+.title {
+    display: flex;
+    justify-content: start;
+    color: rgb(129, 4, 4);
+}
+
 p {
-    width:80%;
+    width: 100%;
     display: flex;
     justify-content: center;
 }
 
 .red_hat_photo {
-    width: 300px;
+    width: 200px;
     height: auto;
     border-radius: 10%;
 }
 
 .woodcutters_photo {
-    width: 300px;
+    width: 200px;
     height: auto;
     border-radius: 10%;
 }
 
 .wolf_photo {
-    width: 300px;
-    height: auto;
+    width: 200px;
+    height: 170px;
     border-radius: 10%;
+    object-fit: cover;
+    overflow: hidden;
 }
+
 
