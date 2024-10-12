@@ -15,12 +15,21 @@ body {
     object-fit: cover;
 }
 
-.red_hat {
-    width: 300px;
-    height: auto;
-}
 p {
     width:80%;
     display: flex;
     justify-content: center;
 }
+
+.red_hat {
+    width: 300px;
+    height: auto;
+    border-radius: 10%;
+}
+
+.woodcutters {
+    width: 300px;
+    height: auto;
+    border-radius: 10%;
+}
+
