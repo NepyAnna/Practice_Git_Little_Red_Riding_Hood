@@ -1,16 +1,21 @@
 .title {
     display: flex;
     justify-content: center;
-    color: rgb(97, 18, 18);
-    
-
+    color: rgb(129, 4, 4);
 }
 body {
     width: 100%;
-    background-image: url(../photoes/forest3.jpeg);
+    background-image: url(../photoes/photo5.jpeg);
+    backdrop-filter: blur(6px) sepia(90%);
     z-index: -1;
     padding: 1rem;
-    backdrop-filter: blur(50px); 
+    /*backdrop-filter: blur(50px);*/
     overflow: hidden;
     object-fit: cover;
+}
+
+.text p {
+    width: 500px;
+    display: flex;
+    justify-content: end;
 }
