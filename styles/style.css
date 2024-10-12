@@ -1,4 +1,5 @@
 .title {
+    width: 500px;
     display: flex;
     justify-content: center;
     color: rgb(129, 4, 4);
@@ -14,8 +15,12 @@ body {
     object-fit: cover;
 }
 
-.text p {
+.red_hat {
+    width: 300px;
+    height: auto;
+}
+p {
     width: 500px;
     display: flex;
-    justify-content: end;
+    justify-content: center;
 }
