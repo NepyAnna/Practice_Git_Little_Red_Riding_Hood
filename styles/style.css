@@ -1,11 +1,11 @@
 body {
+    margin: 0;
     width: 55%;
-    background: url(../photoes/photo5.jpeg) no-repeat ;
-    background-size: 100%;
-    -webkit-background-size: 100%;
+    background: url(../photoes/photo5.jpeg) no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
     backdrop-filter: blur(15px) sepia(90%) opacity(95%);
     padding: 1rem;
-    object-fit:cover;
 }
 
 .title {
